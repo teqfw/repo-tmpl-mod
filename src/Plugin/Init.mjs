@@ -12,20 +12,20 @@ export default class Vendor_Project_Plugin_Init {
             return [];
         };
 
-        this.getHttp2StaticMaps = function () {
+        this.getHttpStaticMaps = function () {
             return {
                 '/vue/': '/vue/dist/',
             };
         };
 
-        this.getHttp2BackRealm = function () {
-            return DEF.BACK_REALM;
-        };
-
-        this.getHttp2Services = function () {
+        this.getServicesList = function () {
             return [
                 'Vendor_Project_Back_Service_Some$',
             ];
+        };
+
+        this.getServicesRealm = function () {
+            return DEF.BACK_REALM;
         };
     }
 
