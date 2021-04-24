@@ -1,2 +1,3 @@
-# repo-tmpl-mod
-Template repoitory to create repos for Tequila modules.
+# @teqfw/plugin
+
+Template repository to create repos for Tequila plugins.
