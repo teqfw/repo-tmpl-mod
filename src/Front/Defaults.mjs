@@ -8,7 +8,6 @@ export default class TeqFw_Plugin_Front_Defaults {
 
     constructor(spec) {
         // EXTRACT DEPS
-        /** @type {TeqFw_Plugin_Shared_Defaults} */
         this.SHARED = spec['TeqFw_Plugin_Shared_Defaults$'];
 
         // MAIN FUNCTIONALITY
